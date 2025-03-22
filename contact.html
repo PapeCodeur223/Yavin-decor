@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+
+        <link rel="icon" href="images/favicon.png" />
+        <title>Yavin Office Design</title>
+    </head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top fixed-top sticky-top navbar-light m-0">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="images/logo.svg" alt="" width="124">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#details" class="nav-link">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link btn btn-outline-secondary px-4 mx-4">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header position-relative mt-6 overflow-hiddden">
+        <img src="images/decoration-star.svg" alt="header-image" class="decoration-star position-absolute">
+        <img src="images/decoration-star.svg" alt="header-image" class="decoration-star-2 position-absolute">
+        <div class="container position-relative z-3">
+            <div class="row d-flex align-items-center justify-content-center pt-3">
+                
+                <div class="col-md-7">
+                    <div class="">
+                        <h1 class="xl-text">The <span class="text-primary">Perfect</span> Yavin Office Design</h1>
+                        <p class="lead mb-2">Yavin Décoration est une entreprise passionnée par la transformation des espaces en lieux uniques et inspirants. Spécialisés dans la décoration intérieure, le design sur mesure et l'aménagement d'espaces résidentiels et commerciaux, nous mettons notre créativité et notre expertise à votre service pour concrétiser vos idées les plus audacieuses.</p>
+                        <p class="lead mb-4">Que vous souhaitiez redécorer votre maison, aménager un bureau ou créer une ambiance spécifique pour un événement, notre équipe de designers expérimentés est là pour vous accompagner à chaque étape.</p>
+                        <a href="#introduction" class="btn btn-primary btn-lg m-2">Discover More</a>
+                        <a href="#contact" class="btn btn-primary btn-lg m-2">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <img src="images/contact.png" alt="office-image" class="img-fluid img-container">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Section Contact -->
+    <div class="container my-5 contact-yavin">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="contact-section">
+                    <h1 class="text-center mb-4">Contactez-nous</h1>
+                    <p class="text-center text-muted mb-5">Nous sommes à votre écoute pour tous vos projets de décoration.</p>
+
+                    <!-- Formulaire de contact avec validation -->
+                    <form class="needs-validation" id="contact" novalidate>
+                        <!-- Champ Nom -->
+                        <div class="mb-3">
+                        <label for="name" class="form-label">Nom complet</label>
+                        <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+                        <div class="invalid-feedback">
+                            Veuillez entrer votre nom.
+                        </div>
+                        </div>
+
+                        <!-- Champ E-mail -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Adresse e-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Votre e-mail" required>
+                            <div class="invalid-feedback">
+                                Veuillez entrer une adresse e-mail valide.
+                            </div>
+                        </div>
+
+                        <!-- Champ Message -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Votre message" required></textarea>
+                            <div class="invalid-feedback">
+                                Veuillez entrer un message.
+                            </div>
+                        </div>
+
+                        <!-- Bouton Envoyer -->
+                        <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                    </form>
+
+                    <!-- Informations de contact -->
+                    <div class="contact-info mt-5">
+                        <h4 class="mb-4">Informations de contact</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Rue de la Décoration, 75001 Paris, France</p>
+                        <p><i class="fas fa-phone"></i> +223 74 66 64 89</p>
+                        <p><i class="fas fa-envelope"></i> contact@yavin-decor.com</p>
+                    </div>
+
+                    <!-- Carte Google Maps -->
+                    <div class="map-container mt-5">
+                        <h4 class="mb-4" id="introduction">Localisation de Yavin Decoration </h4>
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.99144060821!2d2.292292615674389!3d48.85837360866146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1629999999999!5m2!1sfr!2sfr"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="">
+        <div class="container">
+            <div class="row">
+                
+                <!-- Section 1 : Logo et description -->
+                <div class="col-md-4 mb-4">
+                <img src="images/logo.svg" alt="Logo de l'entreprise" class="mb-3" style="width: 150px;">
+                <p class="text-muted">
+                    Nous transformons vos espaces en lieux uniques et inspirants. Décoration intérieure, design sur mesure et conseils personnalisés pour des ambiances élégantes et fonctionnelles.
+                </p>
+                </div>
+
+                <!-- Section 2 : Liens utiles -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="mb-3 text-white">Liens Utiles</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Nos Services</a></li>
+                        <li class="mb-2"><a href="#">Projets Réalisés</a></li>
+                        <li class="mb-2"><a href="/blog">Blog</a></li>
+                        <li class="mb-2"><a href="#">Gala</a></li>
+                        <li class="mb-2"><a href="#">Contact</a></li>
+                        <li class="mb-2"><a href="#">Maldin Decor</a></li>
+
+                    </ul>
+                </div>
+
+                <!-- Section 3 : Coordonnées -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3 text-white">Contactez-nous</h5>
+                    <p class="text-muted mb-2">
+                        <strong>Adresse :</strong><br>
+                        123 Rue de la Décoration,<br>
+                        75001 Paris, France
+                    </p>
+                    <p class="text-muted mb-2">
+                        <strong>Téléphone :</strong><br>
+                        +33 1 23 45 67 89 - 74 66 64 89
+                    </p>
+                    <p class="text-muted mb-2">
+                        <strong>Email :</strong><br>
+                        contact@yavin-decor.com
+                    </p>
+                </div>
+
+                <!-- Section 4 : Réseaux sociaux -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3 text-white">Suivez-nous</h5>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="newletters mt-5">
+                        <p>Abonnez-vous à notre Newletters</p>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">@</span>
+                            <input type="text" class="form-control" placeholder="Adress Email" aria-label="Username" aria-describedby="addon-wrapping">
+                            <button class="btn btn-secondary" type="button" id="button-addon1">S'incrire</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Section 5 : Copyright et mentions légales -->
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                <p class="text-muted copyright">
+                    &copy; 2025 <a href="https://greenfad.tech" target="_blank">Green Fad</a>. Tous droits réservés. | 
+                    <a href="/mentions-legales">Mentions Légales</a> | 
+                    <a href="/politique-de-confidentialite">Politique de Confidentialité</a>
+                </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+    
+ 
+</body>
+</html>

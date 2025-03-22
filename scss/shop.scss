@@ -1,0 +1,499 @@
+/* Styles généraux */
+:root{
+    --primary : #4555d2;
+    --secondary: #cc1973;
+    --dark : #191e47;
+    --light: #fff;
+    --light-dark : #494c52;
+}
+
+// Pour le header
+/* Styles généraux */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.carousel-header {
+    position: relative;
+    width: 100%;
+    height: 85vh; /* Hauteur par défaut */
+    overflow: hidden;
+    border-radius: 0 !important; 
+    z-index: 1;
+}
+
+.carrousel-images {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carrousel-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carrousel-image.active {
+    opacity: 1;
+}
+
+.carrousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    background: transparent !important;
+    color: #cc1973; /* Couleur des flèches (secondary) */
+}
+
+.carrousel-btn.prev {
+    left: 10px;
+}
+
+.carrousel-btn.next {
+    right: 10px;
+}
+
+.navbar {
+    transition: all .5s ease-in-out;
+    background: transparent !important; 
+    z-index: 10000; 
+    position: fixed; 
+}
+
+.navbar-sticky {
+    background: #fff !important; 
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.navbar .nav-link{
+    font-size: 17px !important;
+    color: var(--dark);
+}
+
+.navbar{
+    padding: 20px 0 !important;
+}
+
+
+.carousel .carousel-image{
+    height: 300px;
+    width: 100%;
+
+}
+
+/* Pour les écrans mobiles (jusqu'à 767.98px) */
+@media (max-width: 767.98px) {
+    .carousel-header {
+        height: 50vh; 
+        border-radius: 10px; 
+    }
+
+    .carrousel-images{
+        display: flex;
+    }
+
+    .carrousel-btn {
+        font-size: 18px;
+        padding: 8px; 
+    }
+
+    .carrousel-btn i {
+        font-size: 1.5rem; 
+    }
+}
+
+/* Pour les tablettes (768px à 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-header {
+        height: 50vh;
+        border-radius: 12px; 
+    }
+
+    .carrousel-btn {
+        font-size: 20px; 
+        padding: 9px;
+    }
+
+    .carrousel-btn i {
+        font-size: 1.75rem; 
+    }
+}
+
+/* Pour les écrans de bureau (992px et plus) */
+@media (min-width: 992px) {
+    .carousel-header {
+        height: 85vh; 
+        border-radius: 15px; 
+    }
+
+    .carrousel-btn {
+        font-size: 24px; 
+        padding: 10px; 
+    }
+
+    .carrousel-btn i {
+        font-size: 2rem; 
+    }
+}
+
+
+/* Styles de base */
+.product-card {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Hauteur par défaut */
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 70%; /* 70% de la hauteur de la carte */
+    overflow: hidden;
+}
+
+.carousel-image {
+    // width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.carousel-image.active {
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.carousel-prev, .carousel-next {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .card-body {
+    transform: translateY(-100%);
+}
+
+.product-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-price {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    transition: bottom 0.3s ease;
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product-card:hover .overlay {
+    bottom: 20px;
+}
+
+.add-to-cart, .icon-button {
+    background-color: var(--secondary);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.add-to-cart:hover, .icon-button:hover {
+    background-color: var(--primary);
+}
+
+/* Responsive Design */
+@media (max-width: 767.98px) {
+    /* Mobile */
+    .col-12 {
+        flex: 0 0 100%; /* 1 carte par ligne */
+        max-width: 100%;
+    }
+
+    .product-card {
+        height: 300px; /* Hauteur réduite pour mobile */
+    }
+
+    .product-image {
+        height: 60%; /* Ajustement de la hauteur de l'image */
+    }
+
+    .carousel-buttons {
+        top: 40%; /* Ajustement de la position des flèches */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Tablette */
+    .col-sm-6 {
+        flex: 0 0 50%; /* 2 cartes par ligne */
+        max-width: 50%;
+    }
+
+    .product-card {
+        height: 350px; /* Hauteur ajustée pour tablette */
+    }
+
+    .product-image {
+        height: 65%; /* Ajustement de la hauteur de l'image */
+    }
+}
+
+@media (min-width: 992px) {
+    /* Desktop */
+    .col-md-4 {
+        flex: 0 0 33.33%; /* 3 cartes par ligne */
+        max-width: 33.33%;
+    }
+
+    .col-lg-2 {
+        flex: 0 0 20%; /* 5 cartes par ligne */
+        max-width: 20%;
+    }
+}
+
+
+// Après les boutiques
+.decor-yavin .decoration-star-2{
+    top: 80px;
+    left: -200px;
+    width: 500px;
+    opacity: .7;
+    
+}
+
+.decor-yavin .decoration-star{
+    top: 80px;
+    left: -200px;
+    width: 500px;
+    opacity: .7;
+}
+
+@media(max-width: 992px){
+    .xl-text{
+        font-size: 50px;
+    }
+    .header{
+        margin-top: 0px !important;
+        text-align: center;
+    }
+
+    .header .decoration-star{
+        left: -100px;
+        width: 250px;
+    }
+
+    .header .decoration-star-2{
+        left: -100px;
+        width: 250px;
+    }
+
+    .header .image-container{
+        margin-top: 30px;
+    }
+}
+
+// Product-card-image
+.product-card-image img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-card-image:hover{
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+}
+
+
+// Partners ::afterbody {
+
+.partners-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    // background-color: #f9f9f9;
+    background-color: var(--primary);
+    // padding: 20px 0;
+}
+
+.partners-title {
+    text-align: center;
+    font-size: 2.8rem;
+    color: black;
+    position: relative;
+    z-index: 2;
+}
+
+.logos-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logos-track {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+.logos-track img {
+    // height: 200px;
+    width: 150px;
+    margin-right: 100px !important;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media(max-width: 787px){
+    .partners-title{
+        font-size: 2rem;
+        padding-bottom: 20px !important;
+    }
+
+    .logos-track img{
+        width: 100px;
+        margin-right: 30px !important;
+    }
+}
+
+// footer
+footer {
+    background-color: #191e47;
+    color: #f9fafe !important;
+    padding: 40px 0;
+}
+footer a {
+    color: #cc1973;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #007bff;
+}
+.social-icons a i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 50px;
+    color: white !important;
+    background: #cc1973;
+}
+
+footer{
+    font-size: 20px !important;
+}
+
+.mb-4 > .text-muted{
+    color: #f9fafe !important;
+}
+
+.copyright{
+    color: #f8f9fa !important;
+}
+
+@media (max-width:767px){
+    footer{
+        font-size: 18px !important;
+        padding: 20px !important;
+    }
+}

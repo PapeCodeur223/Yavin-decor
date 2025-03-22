@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/shop.css" />
+
+        <link rel="icon" href="images/favicon.png" />
+        <title>Yavin Office Design</title>
+    </head>
+    <body>
+        
+        
+        <!-- Header -->
+        <section class="header">
+            <nav class="navbar navbar-expand-lg fixed-top fixed-top sticky-top navbar-light m-0">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo.svg" alt="" width="124">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#details" class="nav-link">Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="shop.html" class="nav-link">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link btn btn-outline-secondary px-4 mx-4">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="carousel-header">
+                <div class="carrousel-images">
+                    <img src="images/bg-header/header-1.jpeg" alt="Image 1" class="carrousel-image active">
+                    <img src="images/bg-header/header-2.jpeg" alt="Image 2" class="carrousel-image">
+                    <img src="images/bg-header/header-3.jpeg" alt="Image 3" class="carrousel-image">
+                    <img src="images/bg-header/header-4.jpeg" alt="Image 4" class="carrousel-image">
+                    <img src="images/bg-header/header-5.jpeg" alt="Image 5" class="carrousel-image">
+                    <img src="images/bg-header/header-6.jpeg" alt="Image 6" class="carrousel-image">
+                    <img src="images/bg-header/header-7.jpeg" alt="Image 7" class="carrousel-image">
+                    <img src="images/bg-header/header-8.jpeg" alt="Image 8" class="carrousel-image">
+                    <img src="images/bg-header/header-9.jpeg" alt="Image 9" class="carrousel-image">
+                    <img src="images/bg-header/header-10.jpeg" alt="Image 10" class="carrousel-image">
+                    <img src="images/bg-header/header-11.jpeg" alt="Image 10" class="carrousel-image">
+                    <img src="images/bg-header/header-12.jpeg" alt="Image 10" class="carrousel-image">
+
+                </div>
+                <button class="carrousel-btn prev" onclick="prevImage()">
+                    <i class="fas fa-arrow-circle-left fa-3x text-primary"></i>
+                </button>
+                <button class="carrousel-btn next" onclick="nextImage()">
+                    <i class="fas fa-arrow-circle-right fa-3x text-primary"></i>
+                </button>
+            </div>    
+        </section>
+        
+        <!-- Decoration -->
+        <section class="produits mt-6">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/bg-9.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/bg-11.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/bg-13.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Vedette</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Decor Interior</h3>
+                                <div class="product-price">$150.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/bg-14.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/bg-15.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/bg-16.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Promo</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Decor classic</h3>
+                                <div class="product-price">$120.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/bg-17.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/bg-18.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/bg-19.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Sale</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Decor Contemporary</h3>
+                                <div class="product-price">$130.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/bg-19.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/bg-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/bg-20.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Top</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Scandinave</h3>
+                                <div class="product-price">$170.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/etagere-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/etagere-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/light.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Industriel</h3>
+                                <div class="product-price">$80.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Répétez la structure pour les autres cartes -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Row2 -->
+        <section class="produits mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/table-2.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/table-1.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/table-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Dining Table</h3>
+                                <div class="product-price">$50.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/table-3.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/table-4.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/table-5.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Coffee Table</h3>
+                                <div class="product-price">$70.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/table-4.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/table-5.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/table-6.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Console Table</h3>
+                                <div class="product-price">$30.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/table-6.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/table-7.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/table-8.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Accent Table</h3>
+                                <div class="product-price">$70.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/decor/table-9.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/decor/table-10.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/decor/table-11.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Nesting Tables</h3>
+                                <div class="product-price">$80.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="decor-yavin position-relative mt-4 overflow-hiddden">
+            <img src="images/decoration-star.svg" alt="header-image" class="decoration-star position-absolute">
+            <img src="images/decoration-star.svg" alt="header-image" class="decoration-star-2 position-absolute">
+            <div class="container position-relative z-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mt-6">
+                            <h1 class="xl-text">The <span class="text-primary">Perfect</span> Yavin Office Design</h1>
+                            <p class="lead mb-4">A modern and sustainable office space. We specialize in transforming office spaces into inpiring and functionnal environments. Let us bring your vision to life.</p>
+                            <a href="#introduction" class="btn btn-dark btn-lg m-2">Discover More</a>
+                            <a href="#contact" class="btn btn-dark btn-lg m-2">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="images/hero/hero-3.jpeg" alt="office-image" class="img-fluid img-container">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Product-card -->
+        <section class="mt-5">
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-xl-4 g-4">
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/bg-11.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <div class="badge bg-transparent"><i class="fas fa-star fa-2x text-warning"></i></div>
+                            <h5 class="card-title">Decor Rustic </h5>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text fst-italic">$170.00</p>
+                                <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/etagere-1.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Decor Minimalist</h5>
+                                <div class="d-flex justify-content-between">
+                                    <p class="card-text fst-italic">$100.00</p>
+                                    <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/bg-8.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Decor Shabby Chic</h5>
+                                <div class="d-flex justify-content-between">
+                                    <p class="card-text fst-italic">$150.00</p>
+                                    <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/bg-12.jpeg" class="card-img-top" alt="...">
+                            <div class="badge bg-transparent"><i class="fas fa-star fa-2x text-dark"></i></div>
+                            <div class="card-body">
+                            <h5 class="card-title">Art Deco</h5>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text fst-italic">$90.00</p>
+                                <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container mt-5">
+                <!-- Row 2 -->
+                <div class="row row-cols-2 row-cols-md-3 row-cols-xl-4 g-4">
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/table-2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Nesting Tables </h5>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text fst-italic">$70.00</p>
+                                <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/table-3.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Round Table</h5>
+                                <div class="d-flex justify-content-between">
+                                    <p class="card-text fst-italic">$100.00</p>
+                                    <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/table-4.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Folding Table</h5>
+                                <div class="d-flex justify-content-between">
+                                    <p class="card-text fst-italic">$60.00</p>
+                                    <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card product-card-image">
+                            <img src="images/decor/table-5.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Square Table</h5>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text fst-italic">$80.00</p>
+                                <i class="fas fa-shopping-cart fa-1x text-dark"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="my-6">
+            <div class="partners-container py-5">
+                <h2 class="partners-title text-white pb-5">Nos Partenaires</h2>
+                <div class="logos-container">
+                    <div class="logos-track">
+                        <img src="images/partners/partner-1.jpeg" alt="Logo 1" class="rounded-circle">
+                        <img src="images/partners/partner-2.jpeg" alt="Logo 2" class="rounded-circle">
+                        <img src="images/partners/partner-3.jpeg" alt="Logo 3" class="rounded-circle">
+                        <img src="images/partners/partner-4.jpeg" alt="Logo 4" class="rounded-circle">
+                        <img src="images/partners/partner-5.jpeg" alt="Logo 5" class="rounded-circle">
+                        <img src="images/partners/partner-6.jpeg" alt="Logo 6" class="rounded-circle">
+                        <img src="images/partners/partner-7.jpeg" alt="Logo 7" class="rounded-circle">
+                        <img src="images/partners/partner-8.jpeg" alt="Logo 8" class="rounded-circle">
+                        <img src="images/partners/partner-9.jpeg" alt="Logo 9" class="rounded-circle">
+                        <img src="images/partners/partner-10.jpeg" alt="Logo 10" class="rounded-circle">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Title -->
+        <section class="title">
+            <div class="container">
+                <div class="row mt-6">
+                    <!-- <div class="col-lg-8 offset-lg-2"> -->
+                    <div class="col-12">
+                        <h2 class="text-left text-primary fs-1">Appartements</h2>
+                        <p class="lead text-left">Découvrez nos offres de décoration et construction pour vos appartements et salons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Row 3 -->
+        <section class="produits mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Custom shelving units</h3>
+                                <div class="product-price">$120.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-4.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-5.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-6.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Built-in wardrobes</h3>
+                                <div class="product-price">$150.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-7.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-8.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-9.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Modular furniture systems</h3>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-10.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-11.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-12.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Custom kitchen cabinets</h3>
+                                <div class="product-price">$180.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-13.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-14.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-15.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Tailored home office setups</h3>
+                                <div class="product-price">$110.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 4 -->
+        <section class="produits mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-16.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-17.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-18.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Bespoke room dividers</h3>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-19.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-20.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-21.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Custom entertainment centers</h3>
+                                <div class="product-price">$150.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-22.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-23.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-24.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Personalized closet organizers</h3>
+                                <div class="product-price">$250.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-25.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-26.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-27.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Made-to-order storage solutions</h3>
+                                <div class="product-price">$210.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/appartments/appartement-28.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/appartments/appartement-29.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/appartments/appartement-30.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Customized bathroom vanities</h3>
+                                <div class="product-price">$240.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Title -->
+        <section class="title">
+            <div class="container">
+                <div class="row mt-6">
+                    <!-- <div class="col-lg-8 offset-lg-2"> -->
+                    <div class="col-12">
+                        <h2 class="text-left text-primary fs-1 text-capitalize">Decoration Interior</h2>
+                        <p class="lead text-left">Découvrez nos offres de décoration de vos appartements et salons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Row 6 -->
+        <section class="produits mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/fauteuils/fauteuil-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/fauteuils/fauteuil-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/fauteuils/fauteuil-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Fauteuil club</h3>
+                                <div class="product-price">$300.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/fauteuils/fauteuil-3.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/fauteuils/fauteuil-4.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/fauteuils/fauteuil-5.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Fauteuil design</h3>
+                                <div class="product-price">$270.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/fauteuils/fauteuil-6.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/fauteuils/fauteuil-7.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/fauteuils/fauteuil-8.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Fauteuil relax</h3>
+                                <div class="product-price">$290.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/others/bed-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/others/bed-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/others/bed-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Lit à baldaquin</h3>
+                                <div class="product-price">$165.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/others/bed-4.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/others/bed-5.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/others/bed-6.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Lit mezzanine</h3>
+                                <div class="product-price">$160.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 7 -->
+        <section class="produits mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/armoires/armoire-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/armoires/armoire-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/armoires/armoire-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Armoire penderie</h3>
+                                <div class="product-price">$350.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/armoires/armoire-4.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/armoires/armoire-5.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/armoires/armoire-6.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Armoire vitrée</h3>
+                                <div class="product-price">$250.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/armoires/armoire-7.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/armoires/armoire-8.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/armoires/armoire-9.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Armoire chêne massif</h3>
+                                <div class="product-price">$235.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/cuisines/cuisine-2.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/cuisines/cuisine-1.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/cuisines/cuisine-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Cuisine équipée</h3>
+                                <div class="product-price">$190.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/cuisines/cuisine-6.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/cuisines/cuisine-5.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/cuisines/cuisine-4.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Cuisine americaines</h3>
+                                <div class="product-price">$280.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Title -->
+        <section class="title">
+            <div class="container">
+                <div class="row mt-6">
+                    <!-- <div class="col-lg-8 offset-lg-2"> -->
+                    <div class="col-12">
+                        <h2 class="text-left text-primary fs-1 text-capitalize">éclairage</h2>
+                        <p class="lead text-left">Découvrez nos offres de décoration en éclairage de vos appartements et salons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Row 6 -->
+        <section class="produits mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/light/light-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/light/light-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/light/light-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Chandeliers</h3>
+                                <div class="product-price">$50.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/light/light-4.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/light/light-5.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/light/light-6.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Floor lamps</h3>
+                                <div class="product-price">$70.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/light/light-7.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/light/light-8.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/light/light-9.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Wall sconces</h3>
+                                <div class="product-price">$90.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/light/light-10.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/light/light-11.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/light/light-12.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Recessed lighting</h3>
+                                <div class="product-price">$120.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/light/light-13.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/light/light-14.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/light/light-15.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Track lighting</h3>
+                                <div class="product-price">$60.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Row 7 -->
+        <section class="produits mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/others/cousin-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/others/cousin-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/others/cousin-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-dark">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Throw pillows</h3>
+                                <div class="product-price">$50.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/others/cousin-4.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/others/cousin-3.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/others/cousin-5.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Bedspreads</h3>
+                                <div class="product-price">$70.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/others/tapis-1.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/others/tapis-2.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/others/tapis-3.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Persian Rug</h3>
+                                <div class="product-price">$35.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/others/tapis-10.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/others/tapis-5.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/others/tapis-6.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-secondary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Shag Rug</h3>
+                                <div class="product-price">$70.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="carousel">
+                                    <img src="images/others/tapis-7.jpeg" alt="Produit 1" class="carousel-image active">
+                                    <img src="images/others/tapis-8.jpeg" alt="Produit 2" class="carousel-image">
+                                    <img src="images/others/tapis-9.jpeg" alt="Produit 3" class="carousel-image">
+                                </div>
+                                <div class="badge bg-primary">Classic</div>
+                                <div class="carousel-buttons">
+                                    <button class="carousel-prev">&#10094;</button>
+                                    <button class="carousel-next">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="product-name">Kilim Rug</h3>
+                                <div class="product-price">$80.00</div>
+                            </div>
+                            <div class="overlay">
+                                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                                <button class="icon-button"><i class="fas fa-search"></i></button>
+                                <button class="icon-button"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="">
+            <div class="container">
+                <div class="row">
+                    
+                    <!-- Section 1 : Logo et description -->
+                    <div class="col-md-4 mb-4">
+                    <img src="images/logo.svg" alt="Logo de l'entreprise" class="mb-3" style="width: 150px;">
+                    <p class="text-muted">
+                        Nous transformons vos espaces en lieux uniques et inspirants. Décoration intérieure, design sur mesure et conseils personnalisés pour des ambiances élégantes et fonctionnelles.
+                    </p>
+                    </div>
+
+                    <!-- Section 2 : Liens utiles -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="mb-3 text-white">Liens Utiles</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#">Nos Services</a></li>
+                            <li class="mb-2"><a href="#">Projets Réalisés</a></li>
+                            <li class="mb-2"><a href="/blog">Blog</a></li>
+                            <li class="mb-2"><a href="#">Gala</a></li>
+                            <li class="mb-2"><a href="#">Contact</a></li>
+                            <li class="mb-2"><a href="#">Maldin Decor</a></li>
+
+                        </ul>
+                    </div>
+
+                    <!-- Section 3 : Coordonnées -->
+                    <div class="col-md-3 mb-4">
+                        <h5 class="mb-3 text-white">Contactez-nous</h5>
+                        <p class="text-muted mb-2">
+                            <strong>Adresse :</strong><br>
+                            123 Rue de la Décoration,<br>
+                            75001 Paris, France
+                        </p>
+                        <p class="text-muted mb-2">
+                            <strong>Téléphone :</strong><br>
+                            +33 1 23 45 67 89 - 74 66 64 89
+                        </p>
+                        <p class="text-muted mb-2">
+                            <strong>Email :</strong><br>
+                            contact@yavin-decor.com
+                        </p>
+                    </div>
+
+                    <!-- Section 4 : Réseaux sociaux -->
+                    <div class="col-md-3 mb-4">
+                        <h5 class="mb-3 text-white">Suivez-nous</h5>
+                        <div class="social-icons">
+                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div class="newletters mt-5">
+                            <p>Abonnez-vous à notre Newletters</p>
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                <input type="text" class="form-control" placeholder="Adress Email" aria-label="Username" aria-describedby="addon-wrapping">
+                                <button class="btn btn-secondary" type="button" id="button-addon1">S'incrire</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Section 5 : Copyright et mentions légales -->
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                    <p class="text-muted copyright">
+                        &copy; 2025 <a href="https://greenfad.tech" target="_blank">Green Fad</a>. Tous droits réservés. | 
+                        <a href="/mentions-legales">Mentions Légales</a> | 
+                        <a href="/politique-de-confidentialite">Politique de Confidentialité</a>
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/shop.js"></script>
+        <script src="js/partners.js"></script>
+
+    </body>
+</html>
