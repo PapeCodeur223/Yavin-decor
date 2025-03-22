@@ -1,0 +1,171 @@
+body {
+  font-family: "Open sans", sans-serif;
+}
+
+.xl-text {
+  font-size: 75px;
+}
+
+.footer {
+  background-color: #4555d2;
+  color: white;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+}
+
+.navbar-sticky {
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .nav-link {
+  font-size: 17px !important;
+  color: #191e47;
+}
+
+.navbar {
+  padding: 20px 0 !important;
+}
+
+.btn-primary {
+  background-color: #cc1973;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #a8145d;
+}
+
+.project img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.employee-carousel {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.employee-carousel img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #cc1973;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .img-container {
+    margin-top: 20px;
+  }
+  .xl-text {
+    font-size: 2.5rem !important;
+  }
+  .header {
+    padding: 0 10px !important;
+    padding-top: 5rem;
+    margin-top: 20px !important;
+  }
+  .about-header {
+    margin-top: 40px !important;
+  }
+}
+.card {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  min-height: 520px !important;
+}
+
+.card-text .content {
+  font-size: 17px !important;
+}
+
+.user-image img {
+  height: 180px !important;
+  width: 100% !important;
+  object-fit: cover;
+}
+
+.bg-team {
+  background: url("../images/bg-team.jpeg") center/cover no-repeat;
+}
+
+.fa-brands {
+  padding: 7px;
+  font-size: 22px;
+  color: black;
+  background: white;
+}
+
+.fa-brands:hover {
+  color: white;
+  background: black;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .user-image img {
+    height: 150px !important;
+    object-fit: cover;
+  }
+}
+footer {
+  background-color: #191e47;
+  color: #f9fafe !important;
+  padding: 40px 0;
+}
+
+footer a {
+  color: #cc1973;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+.social-icons a i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 50px;
+  color: white !important;
+  background: #cc1973;
+}
+
+footer {
+  font-size: 20px !important;
+}
+
+.mb-4 > .text-muted {
+  color: #f9fafe !important;
+}
+
+.copyright {
+  color: #f8f9fa !important;
+}
+
+@media (max-width: 767px) {
+  footer {
+    font-size: 18px !important;
+    padding: 20px !important;
+  }
+}
