@@ -304,14 +304,39 @@ body, html {
 
     .product-card {
         height: 300px; /* Hauteur réduite pour mobile */
+        margin-bottom: 30px;
     }
 
     .product-image {
-        height: 60%; /* Ajustement de la hauteur de l'image */
+        height: 100%; /* Ajustement de la hauteur de l'image */
     }
 
     .carousel-buttons {
         top: 40%; /* Ajustement de la position des flèches */
+    }
+
+    .collection{
+        padding: 35px;
+    }
+
+    .overlay{
+        right: -180px;
+    }
+
+    .decor-yavin{
+        margin: 10px !important;
+    }
+
+    .decor-yavin img{
+        display: none !important;
+    }
+
+    .perfect{
+        margin: 20px !important;
+    }
+
+    .decor-interior{
+        margin-top: 30px !important;
     }
 }
 
@@ -497,3 +522,4 @@ footer{
         padding: 20px !important;
     }
 }
+// ajuter la taille des images sur téléphones
